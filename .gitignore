@@ -1,0 +1,56 @@
+# Frontend
+
+# compiled output
+frontend/dist
+frontend/tmp
+frontend/out-tsc
+# Only exists if Bazel was run
+frontend/bazel-out
+
+# dependencies
+frontend/node_modules
+
+# profiling files
+frontend/chrome-profiler-events.json
+frontend/speed-measure-plugin.json
+
+# IDEs and editors
+frontend/.idea
+frontend/.project
+frontend/.classpath
+frontend/.c9frontend/
+frontend/*.launch
+frontend/.settingsfrontend/
+frontend/*.sublime-workspace
+
+# IDE - VSCode
+frontend/.vscodefrontend/*
+frontend/!.vscodefrontend/settings.json
+frontend/!.vscodefrontend/tasks.json
+frontend/!.vscodefrontend/launch.json
+frontend/!.vscodefrontend/extensions.json
+frontend/.historyfrontend/*
+
+# misc
+frontend/frontend/.sass-cache
+frontend/frontend/connect.lock
+frontend/coverage
+frontend/frontend/libpeerconnection.log
+frontend/npm-debug.log
+frontend/yarn-error.log
+frontend/testem.log
+frontend/typings
+
+# System Files
+frontend/.DS_Store
+frontend/Thumbs.db
+
+backend/.DS_Store
+backend/Thumbs.db
+
+backend/.idea/
+backend/.vscode/
+backend/node_modules/
+backend/build/
+backend/tmp/
+backend/temp/
