@@ -5,7 +5,7 @@ This is a API NodeJS using TypeORM, Angular and PostgreSQL
 
 It's possible research Farmers by Document or Name with autocomplete and farmer's list
 
-.. add image
+<img src="./project/assets/img_1.png" width="50%" />
 
 ### Technologies
 
@@ -53,7 +53,7 @@ $ git clone https://github.com/felipewget/typeorm-with-angular
         * Terminal 2: with server running in terminal 1, go to "project/backend/" in terminal 2 and run "ts-node ./node_modules/.bin/typeorm migration:run"
 
         ```sh
-        ts-node ./node_modules/.bin/typeorm migration:run
+        ts-node ./node_modules/.bin/typeorm migration:run or npm run create-records
         ```
 
         * Important: Check your server and records on SGBD
