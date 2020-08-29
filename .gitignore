@@ -1,56 +1,56 @@
 # Frontend
 
 # compiled output
-frontend/dist
-frontend/tmp
-frontend/out-tsc
+project/frontend/dist
+project/frontend/tmp
+project/frontend/out-tsc
 # Only exists if Bazel was run
-frontend/bazel-out
+project/frontend/bazel-out
 
 # dependencies
-frontend/node_modules
+project/frontend/node_modules
 
 # profiling files
-frontend/chrome-profiler-events.json
-frontend/speed-measure-plugin.json
+project/frontend/chrome-profiler-events.json
+project/frontend/speed-measure-plugin.json
 
 # IDEs and editors
-frontend/.idea
-frontend/.project
-frontend/.classpath
-frontend/.c9frontend/
-frontend/*.launch
-frontend/.settingsfrontend/
-frontend/*.sublime-workspace
+project/frontend/.idea
+project/frontend/.project
+project/frontend/.classpath
+project/frontend/.c9frontend/
+project/frontend/*.launch
+project/frontend/.settingsfrontend/
+project/frontend/*.sublime-workspace
 
 # IDE - VSCode
-frontend/.vscodefrontend/*
-frontend/!.vscodefrontend/settings.json
-frontend/!.vscodefrontend/tasks.json
-frontend/!.vscodefrontend/launch.json
-frontend/!.vscodefrontend/extensions.json
-frontend/.historyfrontend/*
+project/frontend/.vscodefrontend/*
+project/frontend/!.vscodefrontend/settings.json
+project/frontend/!.vscodefrontend/tasks.json
+project/frontend/!.vscodefrontend/launch.json
+project/frontend/!.vscodefrontend/extensions.json
+project/frontend/.historyfrontend/*
 
 # misc
-frontend/frontend/.sass-cache
-frontend/frontend/connect.lock
-frontend/coverage
-frontend/frontend/libpeerconnection.log
-frontend/npm-debug.log
-frontend/yarn-error.log
-frontend/testem.log
-frontend/typings
+project/frontend/frontend/.sass-cache
+project/frontend/frontend/connect.lock
+project/frontend/coverage
+project/frontend/frontend/libpeerconnection.log
+project/frontend/npm-debug.log
+project/frontend/yarn-error.log
+project/frontend/testem.log
+project/frontend/typings
 
 # System Files
-frontend/.DS_Store
-frontend/Thumbs.db
+project/frontend/.DS_Store
+project/frontend/Thumbs.db
 
-backend/.DS_Store
-backend/Thumbs.db
+project/backend/.DS_Store
+project/backend/Thumbs.db
 
-backend/.idea/
-backend/.vscode/
-backend/node_modules/
-backend/build/
-backend/tmp/
-backend/temp/
+project/backend/.idea/
+project/backend/.vscode/
+project/backend/node_modules/
+project/backend/build/
+project/backend/tmp/
+project/backend/temp/
