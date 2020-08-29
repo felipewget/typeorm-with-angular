@@ -1,0 +1,16 @@
+<div envolve-content>
+
+  <!-- Search Farmer -->
+  <app-farmer-search-card 
+    (onFarmersSearchEmitEvents)="changeListFarmers($event)" 
+    [selected_farmer]="selected_farmer"></app-farmer-search-card>
+
+  <!-- List Options Farmer -->
+  <app-farmer-options-list *ngIf="listFarmers && listFarmers.length > 0" 
+      [farmers]="listFarmers" 
+      (onFarmerListEmitEvents)="changeListFarmers($event)"></app-farmer-options-list>
+
+</div>
+  
+<!-- Footer -->
+<app-footer></app-footer>

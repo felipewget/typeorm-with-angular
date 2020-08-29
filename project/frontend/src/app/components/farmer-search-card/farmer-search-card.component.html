@@ -1,0 +1,45 @@
+<mat-card card-container-form>
+
+  <mat-progress-bar *ngIf="is_loading" mode="indeterminate"></mat-progress-bar>
+
+  <mat-grid-list cols="6" rowHeight="56px">
+    
+    <mat-grid-tile [colspan]="2" rowspan="1" >
+        <mat-form-field appearance="fill">
+          <mat-label>Farmer Name or Doc#</mat-label>
+          <input (keyup)="onKeyUpFarmer($event)" matInput placeholder="Type here" required >
+          <mat-icon matSuffix>arrow_right_alt</mat-icon>
+        </mat-form-field>
+        
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="4" rowspan="1"  >
+
+      <mat-form-field disabled="true" appearance="fill">
+        <mat-label>Recipient</mat-label>
+        <input matInput placeholder="Recipient" disabled
+            [value]="selected_farmer && selected_farmer.name ? selected_farmer.name : null" >
+      </mat-form-field>
+
+    </mat-grid-tile>
+
+    <mat-grid-tile [colspan]="1" rowspan="1" > 
+
+      <mat-form-field disabled="true" appearance="fill">
+        <mat-label>Doc#</mat-label>
+        <input matInput placeholder="Document" disabled 
+            [value]="selected_farmer && selected_farmer.document ? selected_farmer.document.documentNumber : null">
+      </mat-form-field>
+
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="5" rowspan="1"  >
+
+      <mat-form-field disabled="true" appearance="fill">
+        <mat-label>Endereço</mat-label>
+        <input matInput placeholder="Address" disabled
+            [value]="selected_farmer && selected_farmer.document ? selected_farmer.document.documentNumber : null">
+      </mat-form-field>
+
+    </mat-grid-tile>
+  </mat-grid-list>
+
+</mat-card>

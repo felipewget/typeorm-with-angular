@@ -1,0 +1,13 @@
+mat-form-field, mat-form-field .mat-form-field-flex {
+    width: 100%;
+    height: 55px;
+    border-bottom: solid 1px #555;
+}
+
+mat-form-field[disabled] {
+    border-bottom: dashed 1px #888;
+}
+
+[card-container-form] {
+    background: #EEE;
+}

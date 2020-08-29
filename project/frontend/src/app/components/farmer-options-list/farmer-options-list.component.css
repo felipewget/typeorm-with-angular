@@ -1,0 +1,14 @@
+div.mat-line[description] {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #888;
+}
+
+mat-list-item {
+    cursor: pointer;
+    overflow: hidden;
+    background: #F9F9F9;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #CCC;
+}

@@ -1,0 +1,9 @@
+<mat-list>
+  <div mat-subheader>{{ farmers && farmers.length > 1 ? "Farmers" : "Farmer" }}</div>
+  <mat-list-item *ngFor="let farmer of farmers" (click)="selectFarmer(farmer)">
+    <mat-icon mat-list-icon >emoji_people</mat-icon>
+    <div mat-line>{{farmer.name}}</div>
+    <div mat-line description>Address: {{farmer.address.address}} ({{farmer.address.country}}/{{farmer.address.state}})</div>
+    <div mat-line description>Document: {{farmer.document.documentType}} - {{farmer.document.documentNumber}}</div>
+  </mat-list-item>
+</mat-list>

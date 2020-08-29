@@ -1,0 +1,23 @@
+footer[footer-page] {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width   : 100%;
+    height  : 40px;
+    color   : #999;
+    background  : #222;
+    line-height : 40px;
+    text-align  : center;
+    font-size   : 14px;
+}
+
+footer[footer-page] a {
+    color   : #DDD;
+    cursor  : pointer;
+    text-decoration: none;
+}
+
+div[space-footer] {
+    width   : 100%;
+    height  : 40px;
+}
